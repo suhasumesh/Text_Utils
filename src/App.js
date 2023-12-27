@@ -59,6 +59,16 @@ function App() {
     <>
     <Router>
     <Helmet>
+    <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://textutils-tof6.onrender.com/",
+              "@type": "Organization",
+              "name": "TextUtils",
+              "url": "https://textutils-tof6.onrender.com/"
+            }
+          `}
+        </script>
     <meta name="description" content="A powerful text analysis tool with advanced features." />
           <meta name="keywords" content="textutils,text analysis, React,Text Analyser,Text Converter" />
           <meta name="author" content="Suhas Umesh,Suhas,textutils" />
